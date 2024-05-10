@@ -114,20 +114,3 @@ class LinkedList:
         raise Exception(f'{data} not in linked list')
 
 
-if __name__ == '__main__':
-    ll = LinkedList()
-    ll.print()
-    ll.insert_after_value("mango", "apple")  # insert apple after mango
-    ll.print()
-    ll.remove_by_value("orange")  # remove orange from linked list
-    ll.print()
-    #ll.remove_by_value("figs")
-    #ll.print()
-    ll.remove_by_value("banana")
-    ll.print()
-    ll.remove_by_value("mango")
-    ll.remove_by_value("apple")
-    ll.remove_by_value("grapes")
-    ll.print()
-
-
